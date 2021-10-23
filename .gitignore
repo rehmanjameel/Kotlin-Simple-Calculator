@@ -1,8 +1,10 @@
+.idea
+/.idea
 /bin/
 /target/
+.gitignore
 *.iml
 .gradle
-.idea
 /local.properties
 /.idea/caches
 /.idea/libraries
