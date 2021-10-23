@@ -1,8 +1,6 @@
-.idea/
 /.idea
 /bin/
 /target/
-.gitignore
 *.iml
 .gradle
 /local.properties
