@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/placeHolder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=""
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:ellipsize="start"
+        android:maxLength="12"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="40sp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=""
+        android:layout_gravity="end"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="40sp"
+        android:textSize="35sp"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:singleLine="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/clear"
+            android:text="CE"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"/>
+        <TextView
+            android:id="@+id/startBracket"
+            android:text="("
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"/>
+        <TextView
+            android:id="@+id/closeBracket"
+            android:text=")"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"/>
+        <TextView
+            android:id="@+id/actionDivide"
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="7" />
+
+
+        <TextView
+            android:id="@+id/num8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="8" />
+
+
+        <TextView
+            android:id="@+id/num9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="9" />
+
+
+        <TextView
+            android:id="@+id/actionMultiply"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="x" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="4" />
+
+
+        <TextView
+            android:id="@+id/num5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="5" />
+
+
+        <TextView
+            android:id="@+id/num6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="6" />
+
+
+        <TextView
+            android:id="@+id/actionMinus"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="-" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/num1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="1" />
+
+
+        <TextView
+            android:id="@+id/num2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="2" />
+
+
+        <TextView
+            android:id="@+id/num3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="3" />
+
+
+        <TextView
+            android:id="@+id/actionAdd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:text="+" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/numDot"
+            android:text="."
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:gravity="center"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="false"
+            />
+
+
+        <TextView
+            android:id="@+id/num0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="true"
+            android:text="0" />
+
+
+        <ImageView
+            android:id="@+id/actionBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button"
+            android:src="@drawable/back_black"
+            android:scaleType="center"/>
+
+        <TextView
+            android:id="@+id/actionEquals"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="true"
+            android:text="=" />
+
+    </LinearLayout>
+
+</LinearLayout>
